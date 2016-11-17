@@ -1,0 +1,21 @@
+# cse180_project
+This program is a tool that can perform several differential expression analysis pipelines.  
+
+Differential expression analysis or RNA-seq attempts to identify the genes that are differentially expressed in
+distinct groups of samples.  Usually in a differential expression analysis we have a control sample, which is a 
+commonly a healthy sample under normal conditions, and we used that sample as a comparison for our experimental
+sample, which is under different circumstances from the control sample. The samples are obtained by taking a snapshot
+of the levels of mRNA in both the control and experimental specimens. By studying the levels of mRNA, we are able to
+identify which genes were differentially expressed at a given time, which may lead to a variety of biological insight. 
+
+To run this program, users must input their data (control and experimental samples) in the form of fastq files and 
+can choose between the following RNA-seq pipelines:
+
+1. Tophat + Cufflinks + Cuffdiff
+
+2. STAR + Deseq
+
+The program will run whichever pipeline the user specified, or executes the Tophat + Cufflinks + Cuffdiff pipeline
+by default.
+
+
