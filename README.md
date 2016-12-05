@@ -12,6 +12,13 @@ Again, you will be prompted to enter several different input files, such as your
 ## Motivation
 The purpose of our program is to automate and simplify the execution of an RNA-seq pipeline. Withoutthisstreamlinedprogram,userswouldhavetoenteracommand,waitseveral hours for a command to finish before having to return to the computer and enter the next command. In addition to not having to execute the different tools separately, this program simplifies the pipeline by prompting the users for exactly what is needed, which eliminates the confusion regarding how to execute these tools. It abstracts away the complex underlying details of the programs run, and acts as a user-friendly interface. Due to the fact that RNA-seq data has a very high throughput, the program takes approximately a couple of hours to complete running the pipeline on a realistic dataset. With that being said, our program doesn’t deviate far from the average time that it usually takes to complete a differential expression analysis. It merely streamlines the execution of several bioinformatics tools. Some of the drawbacks of our pipeline is the fact that the user cannot specify extra optional parameters if they would like to, as the program will automatically run the pipeline for them. Because we add abstraction to simplify the pipeline, we restrict the users freedom with running these tools. Additionally, our program only allows the user to perform a differential expression analysis between 2 samples, so if the researcher has multiple samples they would have to run this pipeline multiple times.
 
+
+## Notes
+On our own machines, we tested with files retrieved from the NCBI database (​https://blast.ncbi.nlm.nih.gov/Blast.cgi​) , but were unable to upload it to the Github repo.
+For testing purposes, feel free to use the test data we provided within our repo: - reads_1.fq
+- reads_2.fq
+- test_ref.fa
+
 ## Contributors
 Karina Soerjanto
 Cherie Huang
