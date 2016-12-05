@@ -6,7 +6,7 @@ Our program will prompt the user with questions regarding their samples. It will
 ## How to Run
 
 In order to use our program, you would need to download Samtools, Bowtie, Tophat, Cufflinks, Cuffmerge, and Cuffdiff and add the variables bowtie, tophat, and cufflinks to your PATH. Additionally, you need to have Python installed on your machine. Following, to use our pipeline, simply run the script by typing into your terminal:
-```$ ./rna_seq_pipeline.sh```
+```$ ./bashscript.sh```
 Again, you will be prompted to enter several different input files, such as your .fastq samples and your .fasta reference files, and the optional parameters to run the pipeline. Once you have gone through the series of prompts, the program will execute the tools to run the pipeline.
 
 ## Motivation
