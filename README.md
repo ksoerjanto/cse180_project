@@ -15,12 +15,13 @@ The purpose of our program is to automate and simplify the execution of an RNA-s
 
 ## Notes
 On our own machines, we tested with files retrieved from the NCBI database (​https://blast.ncbi.nlm.nih.gov/Blast.cgi​) , but were unable to upload it to the Github repo.
-For testing purposes, feel free to use the test data we provided within our repo: - reads_1.fq
+For testing purposes, feel free to use the test data we provided within our repo:
+- reads_1.fq
 - reads_2.fq
 - test_ref.fa
 
 ## Contributors
-Karina Soerjanto
-Cherie Huang
-Dennis Cao
-Katie Huang
+- Karina Soerjanto
+- Cherie Huang
+- Dennis Cao
+- Katie Huang
